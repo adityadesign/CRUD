@@ -1,0 +1,171 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #FFF;
+  background-color: rgb(43, 46, 57);
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(21, 24, 35);
+}
+
+.navbarElements{
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.navbarElements:hover{
+  color: #ffffffb4;
+}
+
+.search{
+  height: 2rem;
+  width: 40vw;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: 0.5rem;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 20px;
+}
+
+.formElements{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.formElements input{
+  height: 1.8rem;
+  width: 35vw;
+  max-width: 350px;
+}
+
+.gender{
+  text-align: center;
+}
+
+.form button{
+  padding: 0.7rem 1.5rem;
+  background-color: rgb(234, 255, 0);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.form button:hover{
+  background-color: rgb(161, 175, 13);
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.cardsList{
+  width: 90vw;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgb(21, 24, 35);
+  width: 30vw;
+  height: 20vh;
+  min-height: 150px;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.links{
+  display: flex;
+  gap: 10px;
+}
+
+.links button{
+  cursor: pointer;
+}
+
+.modalBackground{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modalContainer{
+  background-color: #FFF;
+  box-shadow: 0px 0px 0px #888;
+  padding: 20px;
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.close{
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.modalContainer>h3{
+  margin: 0;
+}
+
+.btn{
+  background-color: #f3e5e5;
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid #888;
+  font-weight: 600;
+}
+
+.btn:hover{
+  background-color: #888;
+  border: 1px solid #FFF;
+}
+
+.genderFilterRadio{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.genderFilterRadio label{
+  margin-right: 8px;
+}
